@@ -23,7 +23,7 @@ main {
 }
 
 header{
-    background-image: url('/img/ImagemIndex1.png');
+    background-image: url("img/ImagemIndex1.png");
     padding-top: 1150px;
     padding-bottom: 20px;
     position: relative;
