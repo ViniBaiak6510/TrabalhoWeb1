@@ -89,7 +89,7 @@ button{
 
 
 .CursoProfissional{
-     background-image: url('/img/Profissional.png');
+     background-image: url(../img/Profissional.png);
      height: 948px;
      position: relative;
 }

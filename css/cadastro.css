@@ -2,7 +2,7 @@
 body{
     font-family: Arial;
     margin: 0%;
-    background-image: url("/img/fundo.png");
+    background-image: url(../img/fundo.png);
     color: aliceblue;
 }
 h1{
