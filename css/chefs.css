@@ -1,0 +1,166 @@
+body{
+    margin: 0%;
+    font-family: Arial;
+    background-image: url("/img/fundo.png");
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 150vh;
+}
+
+
+main {
+  flex: 1;
+  padding: 20px;
+}
+
+
+
+header{
+    background-color: brown;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    position: relative;
+    font-size: 30px;
+    margin-bottom: 3%;
+    
+}
+
+header ul{
+    display: inline-block;
+    width: 90%;
+    position: absolute;
+    top: 10px;
+}
+header ul li{
+    display: inline;
+    margin-left: 17%;
+    list-style-type: none;
+}
+
+header a{
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    padding-top: 3%;
+    padding-bottom: 2.2%;
+    padding-left: 1%;
+    padding-right: 1%;
+    
+}
+header a:hover {
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(255, 0, 0);
+}
+
+main{
+    margin-bottom: 5%;
+}
+h1{
+    padding: 10%;
+    font-size: 50px;
+    text-align: center;
+    color: aliceblue;
+    
+}
+.Chefs{
+    
+    height: 2200px;
+    width: 50%;
+    margin: 0 auto;
+    background-color: rgb(40, 41, 41); 
+    
+    border-radius: 5%;
+}
+.ImgPrinc{
+   border-bottom: 10px solid brown;
+   border-right :10px solid brown;
+    width: 60%;
+    height: 400px;
+ 
+
+  background-color: white; /* opcional */
+}
+.Chefs section{
+    
+    border-radius: 20%;
+    width: 70%;
+    margin: 0 auto;
+   
+    background-color: white;
+    margin: 10%;
+}
+.Chefs article{
+    display: flex;
+}
+h3{
+    font-size: 40px;
+    color: brown;
+}
+.Chefs div{
+    width: 100%;
+    display: block;
+   
+    padding-left: 5%;
+   
+}
+div img{
+     border-radius: 20%;
+    width: 20%;
+}
+ 
+
+footer{
+    background-color: black;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+footer p{
+    color: white;
+    text-align: center;
+}
+.linhaFooter{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top: solid 1px rgba(255, 255, 255,.1);
+    border-bottom: solid 1px rgba(255, 255, 255,.1);
+}
+footer ul{
+    margin: 0 auto;
+    width: 35%;
+}
+footer li{
+    display: inline;
+    margin-left: 4%;
+    list-style-type: none;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
+#RedesSoci{
+    margin-top: 2%;
+}
+#Twitter{
+    display: inline-block;
+    filter: invert(100%);
+    width: 30px;
+    height: 30px;
+    margin-left: 48%;
+}
+#Instagram{
+    display: inline-block;
+    filter: invert(100%);
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
